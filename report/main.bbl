@@ -1,0 +1,42 @@
+\begin{thebibliography}{7}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Patterson and Hennessy(2013)]{bookPatterson}
+David~A. Patterson and John~L. Hennessy.
+\newblock \emph{Computer Organization and Design, Fifth Edition: The Hardware/Software Interface}.
+\newblock Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 5th edition, 2013.
+
+\bibitem[Yarom and Falkner(2014)]{flushReload}
+Yuval Yarom and Katrina Falkner.
+\newblock Flush+reload: A high resolution, low noise, l3 cache side-channel attack.
+\newblock In \emph{Proceedings of the 23rd USENIX Conference on Security Symposium}, SEC'14, page 719–732, USA, 2014. USENIX Association.
+\newblock ISBN 9781931971157.
+
+\bibitem[Lipp et~al.(2018)Lipp, Schwarz, Gruss, Prescher, Haas, Fogh, Horn, Mangard, Kocher, Genkin, Yarom, and Hamburg]{meltdownPaper}
+Moritz Lipp, Michael Schwarz, Daniel Gruss, Thomas Prescher, Werner Haas, Anders Fogh, Jann Horn, Stefan Mangard, Paul Kocher, Daniel Genkin, Yuval Yarom, and Mike Hamburg.
+\newblock Meltdown: Reading kernel memory from user space.
+\newblock In \emph{27th {USENIX} Security Symposium ({USENIX} Security 18)}, 2018.
+
+\bibitem[Kocher et~al.(2019)Kocher, Horn, Fogh, , Genkin, Gruss, Haas, Hamburg, Lipp, Mangard, Prescher, Schwarz, and Yarom]{spectrePaper}
+Paul Kocher, Jann Horn, Anders Fogh, , Daniel Genkin, Daniel Gruss, Werner Haas, Mike Hamburg, Moritz Lipp, Stefan Mangard, Thomas Prescher, Michael Schwarz, and Yuval Yarom.
+\newblock Spectre attacks: Exploiting speculative execution.
+\newblock In \emph{40th IEEE Symposium on Security and Privacy (S\&P'19)}, 2019.
+
+\bibitem[Corbet(2003)]{seqFile}
+Jonathan Corbet.
+\newblock The seq\_file interface — the linux kernel documentation, 2003.
+\newblock URL \url{https://www.kernel.org/doc/html/latest/filesystems/seq\_file.html}.
+
+\bibitem[dat(2018)]{databricksMitigations}
+Meltdown and spectre: Exploits and mitigation strategies, 01 2018.
+\newblock URL \url{https://www.databricks.com/blog/2018/01/16/meltdown-and-spectre-exploits-and-mitigation-strategies.html}.
+
+\bibitem[ret(2018)]{retpolineIntel}
+Retpoline: A branch target injection mitigation, 2018.
+\newblock URL \url{https://www.intel.com/content/dam/develop/external/us/en/documents/retpoline-a-branch-target-injection-mitigation.pdf}.
+
+\end{thebibliography}
